@@ -1,0 +1,20 @@
+<div *ngIf="!showRecords">
+  {{ taskInfo.text}}
+
+
+<span class="tools">
+  <span class="item edit">
+    <i class="bi-pencil" aria-hidden="true" (click)="enableEdit()"></i>
+  </span>
+
+  <span class="item delete">
+    <i class="bi-trash" aria-hidden="true" (click)="deleteRecord(taskInfo)"></i>
+  </span>
+</span>
+
+</div>
+
+<div *ngIf="showRecords">
+  <input type="text" #editText>
+  <i class="bi-check-circle" aria-hidden="true" (click)="editRecord(taskInfo, editText)"></i>
+</div>

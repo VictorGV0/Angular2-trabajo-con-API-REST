@@ -6,8 +6,8 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "~3.x",
+    "express": "^3.21.2",
     "mongoose": "^5.9.21",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.20"
   }
 }

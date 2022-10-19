@@ -1,0 +1,24 @@
+<div *ngIf="!error">
+  <ul class="list-unstyled" *ngIf="tasks && tasks.length > 0">
+    <li *ngFor="let item of tasks">
+        <app-each-task [taskInfo]="item" (taskChange)="reload()"></app-each-task>
+    </li>
+  </ul>
+
+  <div *ngIf="!tasks || tasks.length <= 0">
+    <h1>
+      EMPTY LIST
+    </h1>
+  </div>
+
+  <input type="text" #inputText>
+
+  <button (click)="createRecord(inputText)">SAVE</button>
+
+</div>
+
+<div *ngIf="error" class="alert alert-danger" role="alert">
+  <span class="bi-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">ERROR: Aplicacion no disponible</span>
+
+</div>
