@@ -15,7 +15,7 @@ Copia este repositorio en tu ordenador abre  la carpeta '/node' y ejecuta
 
 ```npm install```
 
-Abre la carpeta  '/angular/lista-de-pendientes' y repite el proceso.
+Abre la carpeta  '/angular/todo_list' y repite el proceso.
 
 NOTA:
 Si tienes problemas para ejecutar MongoDB recuerda crear una carpeta en la raiz de tu equipo '/data/db' y darle acceso de lectura y escritura.
@@ -24,13 +24,6 @@ Tambien, recuerda tener funcionando el servidor de MongoDB y el servidor node en
 
 
 ### Descripción de carpetas
-- *angular/lista-de-pendientes* contiene el código fuente del proyecto Angular 2
+- *angular/todo_list* contiene el código fuente del proyecto Angular 2
 - *node* contiene los archivos para ejecutar el servidor REST que alimenta el proyecto Angular 2
-- *proyecto finalizado para distribuir/lista-de-pendientes* contiene el proyecto terminado y optimizado para web.
 
-## Más información
-
-Puedes contactarme en mis redes sociales
-
-- Facebook: https://www.facebook.com/carlos.solis1337
-- Youtube: www.youtube.com/user/RevolucionMobi?
